@@ -1,0 +1,11 @@
+body{
+    background: #FFFFff;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+nav{
+    margin-bottom: 15px;
+}
