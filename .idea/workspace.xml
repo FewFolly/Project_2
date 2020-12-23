@@ -121,11 +121,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SOFT\OSPanel\OpenServer\domains\laravel.v1\resources\views\posts" />
+      <recent name="F:\SOFT\OSPanel\OpenServer\domains\laravel.v1\public\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\SOFT\OSPanel\OpenServer\domains\laravel.v1\resources\views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -153,7 +162,8 @@
       <workItem from="1608568749596" duration="137000" />
       <workItem from="1608568894635" duration="4164000" />
       <workItem from="1608573600908" duration="125000" />
-      <workItem from="1608656988563" duration="2857000" />
+      <workItem from="1608656988563" duration="3400000" />
+      <workItem from="1608735670182" duration="9294000" />
     </task>
     <servers />
   </component>

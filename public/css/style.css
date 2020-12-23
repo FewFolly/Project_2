@@ -9,3 +9,15 @@ body{
 nav{
     margin-bottom: 15px;
 }
+.card{
+    margin-bottom: 10px;
+}
+.card-img{
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-author,.card-img{
+    margin-bottom: 10px;
+}
