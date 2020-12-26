@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title'=>"Главная страница"])
 
 @section('content')
     @if(isset($_GET['search']))
@@ -23,7 +23,7 @@
                     <!-- /.card-img -->
                     <div class="card-author">Автор: {{$post->name}}</div>
                     <!-- /.card-author -->
-                    <a href="#" class="btn btn-outline-primary">Посмотреть пост</a>
+                    <a href="{{route('post.show', ['id' => $post->post_id])}}" class="btn btn-outline-primary">Посмотреть пост</a>
                     <!-- /.btn btn-outline-primary -->
                 </div>
                 <!-- /.card-body -->

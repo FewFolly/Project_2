@@ -1,23 +1,10 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title'=>"Создать пост"])
 
 @section('content')
-    <form action="" method="post" enctype="multipart/form-data">
-
+    <form action="{{route('post.store')}}" method="post" enctype="multipart/form-data">
+        @csrf
         <h2>Создать пост</h2>
-        <div class="form-group">
-            <input type="text" class="form-control" name="title" required>
-            <!-- /.form-control -->
-        </div>
-        <!-- /.form-group -->
-        <div class="form-group">
-            <textarea name="desc" rows="10" class="form-control" required></textarea>
-            <!-- /.form-control -->
-        </div>
-        <!-- /.form-group -->
-        <div class="form-group">
-            <input type="file">
-        </div>
-        <!-- /.form-group -->
+        @include('posts.parts.post')
 
         <input type="submit" value="Создать пост" class="btn btn-outline-secondary">
         <!-- /.btn -->
